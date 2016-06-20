@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MessageDemo</string>
+    <string name="main_et_hint">Input Message</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal">
+
+    <com.brioal.messagedemo.view.CircleImageView
+        android:id="@+id/item_left_head"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="left"
+        android:src="@mipmap/ic_github"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用户1"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"/>
+
+        <com.brioal.messagedemo.view.LeftTextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/item_left_msg"
+android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:text="内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容"
+            android:textColor="@color/colorLightBlack"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
